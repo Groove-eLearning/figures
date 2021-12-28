@@ -20,7 +20,7 @@ class MockCourseRole(object):
         # The following are declared in studen.roles.RoleBase
         self.org = ''
         self._role_name = role
-        # The following are declared in student.roles.CourseRole
+        # The following are declared in common.djangoapps.student.roles.CourseRole
         self.role = role
         self.course_key = course_key
 

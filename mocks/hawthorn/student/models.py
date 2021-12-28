@@ -100,7 +100,7 @@ class CourseEnrollmentManager(models.Manager):
 
         """
         # To avoid circular imports.
-        from student.roles import CourseCcxCoachRole, CourseInstructorRole, CourseStaffRole
+        from common.djangoapps.student.roles import CourseCcxCoachRole, CourseInstructorRole, CourseStaffRole
         course_locator = course_id
 
         if getattr(course_id, 'ccx', None):
