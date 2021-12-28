@@ -59,5 +59,6 @@ setup(
     },
     install_requires=[
         'sqlparse >= 0.2.2',  # This is the requirement specified by Django 2.2+
+        'six >= 1.16.0',  # This is the requirement specified by Django 2.2+
     ],
 )
