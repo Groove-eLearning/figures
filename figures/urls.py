@@ -70,8 +70,6 @@ router.register(
 # For the front end UI
 #
 
-
-router.register('', 
 router.register(
     r'courses-index',
     views.CoursesIndexViewSet,
